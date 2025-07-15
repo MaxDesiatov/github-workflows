@@ -158,7 +158,7 @@ jobs:
       - name: Swift version
         run: swift --version
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
       - name: Provide token
         if: ${{ inputs.needs_token }}
         run: |
