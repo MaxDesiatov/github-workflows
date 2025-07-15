@@ -30,7 +30,7 @@ on:
       linux_os_versions:
         type: string
         description: "Linux OS version list (JSON)"
-        default: "[\"jammy\"]"
+        default: "[\"jammy\", \"amazonlinux2\"]"
       windows_swift_versions:
         type: string
         description: "Include Windows Swift version list (JSON)"
